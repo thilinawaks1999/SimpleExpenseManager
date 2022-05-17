@@ -1,0 +1,120 @@
+# 2022-05-17T13:50:52.372Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 2
+}
+test_status: PASSED
+test_result {
+  test_case {
+    test_class: "ApplicationTest"
+    test_package: "lk.ac.mrt.cse.dbs.simpleexpensemanager"
+    test_method: "addAccountTest"
+    start_time {
+      seconds: 1652795451
+      nanos: 465000000
+    }
+    end_time {
+      seconds: 1652795451
+      nanos: 510000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\logcat-lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest-addAccountTest.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\cpuinfo"
+    }
+  }
+}
+test_result {
+  test_case {
+    test_class: "ApplicationTest"
+    test_package: "lk.ac.mrt.cse.dbs.simpleexpensemanager"
+    test_method: "checkNotExistingAccountTest"
+    start_time {
+      seconds: 1652795451
+      nanos: 542000000
+    }
+    end_time {
+      seconds: 1652795451
+      nanos: 546000000
+    }
+  }
+  test_status: PASSED
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\logcat-lk.ac.mrt.cse.dbs.simpleexpensemanager.ApplicationTest-checkNotExistingAccountTest.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "C:\\Users\\Thilina\\AndroidStudioProjects\\SimpleExpenseManager\\app\\build\\outputs\\androidTest-results\\connected\\Pixel_2_API_30_2(AVD) - 11\\testlog\\test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}
